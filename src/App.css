@@ -1,0 +1,67 @@
+@import "~antd/dist/antd.css";
+
+/* LANDING PAGE */
+
+.title {
+  width: 800px;
+}
+
+.main-heading {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+
+.user-name {
+  width: fit-content;
+  float: right;
+  font-size: 20px;
+  color: #fff;
+}
+
+.logo {
+  position: relative;
+  top: -9px;
+  right: 3px;
+  display: block;
+  border-width: 3em;
+  float: right;
+  margin-top: 20px;
+}
+
+.logo-box:hover {
+  background-color: white;
+}
+
+.logo-box {
+  margin-top: 5px;
+  float: right;
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.ant-row-rtl #components-layout-demo-top-side .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background-image: url("./images/login-screen-pattern.jpg");
+  background-color: #cccccc;
+}
+
+.container {
+  background-image: url("./images/login-screen-pattern.jpg");
+  background-color: #cccccc;
+}
+
+.footer {
+  background-color: #db073d;
+  color: #fff;
+}
+
+.option:hover {
+  color: white;
+}

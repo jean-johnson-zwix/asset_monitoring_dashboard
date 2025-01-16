@@ -1,0 +1,55 @@
+body {
+  background-image: url("../images/login-screen-pattern.jpg");
+  background-color: #cccccc;
+}
+
+.login-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box {
+  width: 500px;
+  margin: 20px 20px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-logo-box {
+  margin: 16px;
+  float: left;
+  border: 2px solid #b30732;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.login-logo {
+  position: relative;
+  top: -5px;
+  right: 9px;
+  display: block;
+  border-width: 3em;
+  float: right;
+  margin-top: 20px;
+}
+
+.login-heading {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: #e78fa5;
+  margin-top: 0px;
+  padding: 20px 0 10px 0;
+  background-color: #db073d;
+}
+
+.login-button {
+  background-color: #db073d;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #c00030;
+  color: #fff;
+}

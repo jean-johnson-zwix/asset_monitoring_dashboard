@@ -1,0 +1,82 @@
+.divider {
+  margin-top: 10px;
+  border-top: 18px solid #db073d;
+  border-radius: 5px;
+}
+
+.filter-options {
+  padding: 5px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #001529;
+  border-radius: 5px;
+}
+
+.refresh-button {
+  margin: 7px;
+  border-color: black;
+  color: white;
+  background-color: #7cb5ec;
+}
+
+.refresh-button:hover {
+  color: #001529;
+  background-color: white;
+}
+
+.filter-heading {
+  margin-right: 25%;
+  font-size: 25px;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+}
+
+.filter-title,
+.filter-dropdown {
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #90ed7d;
+  padding: 2px;
+  text-align: center;
+}
+
+.asset-table {
+  margin-top: 25px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.asset-table-title {
+  font-size: small;
+  text-align: center;
+  font-weight: 500;
+  color: #001529;
+}
+
+.site-layout-background {
+  background-image: url("../images/login-screen-pattern.jpg");
+  background-color: #cccccc;
+}
+
+.container {
+  background-image: url("../images/login-screen-pattern.jpg");
+  background-color: #cccccc;
+}
+
+.date-button {
+  text-align: center;
+  padding: 14px 7px;
+  margin: 4px;
+  width: 150px;
+  border-radius: 4px;
+  border: solid 1px #db073d;
+  background-color: #ffffff;
+}
+
+.date-button:hover {
+  background-color: #db073d;
+  color: #fff;
+}

@@ -1,0 +1,47 @@
+.display-item-name {
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.edit-tool {
+  padding: 7px;
+  border-radius: 6px;
+  background-color: oldlace;
+  /* border: 2px solid #b30732; */
+}
+
+.detail-heading {
+  font-size: 1.5em;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: rgb(192, 188, 188);
+}
+
+.detail-box {
+  text-align: center;
+  padding: 4px;
+  background-color: rgb(241, 240, 240);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.detail-box:hover {
+  background-color: #fff;
+  border: 2px solid rgb(241, 240, 240);
+}
+
+.page-heading {
+  text-align: center;
+  font-size: 3em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.container {
+  background: #fff;
+}
